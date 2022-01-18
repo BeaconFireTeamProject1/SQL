@@ -85,6 +85,9 @@ foreign key(VisaStatusID) references VisaStatus(ID)
 create table Contact(
 ID int auto_increment not null primary key,
 PersonID int not null,
+name varchar(200) not null,
+address varchar(400) not null,
+phone varchar(200) not null,
 Relationship varchar(200) null,
 Title varchar(200) null,
 isReferrence boolean,
