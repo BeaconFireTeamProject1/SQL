@@ -1,6 +1,14 @@
-drop database if exists userdb;
-create database userdb;
-use userdb;
+-- drop database if exists userdb;
+-- create database userdb;
+-- use userdb;
+
+
+-- ---------------------------------------------------------------- 
+
+drop database if exists onboarding;
+create database onboarding;
+use onboarding;
+
 
 create table User(
 ID int AUTO_INCREMENT not null primary key,
@@ -35,9 +43,9 @@ Email varchar(200) not null
 
 -- ---------------------------------------------------------------- 
 
-drop database if exists onboarding;
-create database onboarding;
-use onboarding;
+-- drop database if exists onboarding;
+-- create database onboarding;
+-- use onboarding;
 
 create table Person(
 ID int auto_increment not null primary key,
