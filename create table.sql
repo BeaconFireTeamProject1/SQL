@@ -98,7 +98,7 @@ address varchar(400) not null,
 phone varchar(200) not null,
 Relationship varchar(200) null,
 Title varchar(200) null,
-isReferrence boolean,
+isReference boolean,
 isEmergency boolean,
 constraint fk_Contact_Person
 foreign key(PersonID) references Person(ID)
