@@ -9,14 +9,14 @@ values (2, 'Employee');
 insert into user (ID, UserName, Password, Email) 
 values (1, 'admin', '123123', 'admin@test.com');
 
-insert into userrole (ID, UserID, RoleID, ActiveFlag, CreateDate)
-values (1, 1, 1, true, 'someday');
+insert into userrole (ID, UserID, RoleID, ActiveFlag, CreateDate, status)
+values (1, 1, 1, true, 'someday', 'Completed');
 
 insert into user (ID, UserName, Password, Email) 
 values (2, 'test', '123123', 'test@test.com');
 
-insert into userrole (ID, UserID, RoleID, ActiveFlag, CreateDate)
-values (2, 2, 2, true, 'someday too');
+insert into userrole (ID, UserID, RoleID, ActiveFlag, CreateDate, status)
+values (2, 2, 2, true, 'someday too', 'Completed');
 
 -- ---------------------------------------------
 

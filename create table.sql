@@ -28,6 +28,7 @@ UserID int not null,
 RoleID int not null,
 ActiveFlag boolean,
 CreateDate varchar(200),
+status varchar(200) not null,
 constraint fk_UserID
 foreign key(UserID) references User(ID),
 constraint fk_RoleID
