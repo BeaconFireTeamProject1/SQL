@@ -58,4 +58,10 @@ INSERT INTO address (ID, AddressLine1, AddressLine2, City, Zipcode, State, Perso
 VALUES (3, 'address 2 line 1', null, 'city2', '22345*', 'state2', 2);
 
 INSERT INTO applicationworkflow (ID, EmployeeID, CreatedDate, Status, Comments, Type)
-VALUES (1, 2, '2022-01-20', 'reject', 'Get Started', 'EADReceipt');
+VALUES (1, 2, '2022-01-19', 'reject', 'Get Started', 'EADReceipt');
+
+INSERT INTO personaldocument (ID, EmployeeID, Path, Title, Comment)
+VALUES (1, 2, 'testpath', 'randomshit', null);
+
+INSERT INTO personaldocument (ID, EmployeeID, Path, Title, Comment)
+VALUES (2, 2, 'testpath2', 'randomshit2', null);

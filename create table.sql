@@ -121,7 +121,7 @@ ID int auto_increment not null primary key,
 EmployeeID int not null,
 Path varchar(300) not null,
 Title varchar(200) not null,
-Comment varchar(400) not null,
+Comment varchar(400) null,
 constraint fk_Document_Employee
 foreign key(EmployeeID) references Employee(ID)
 );
